@@ -7,5 +7,5 @@ int main() {
     cout<<"Ingrese valor 2: "; cin>>b;
     cout<<"Ingrese valor 3: "; cin>>c;
     p = (a + b + c) / 3;
-    cout<<"\nSupromedio es: "<<p;
+    cout<<"\nSu promedio es: "<<p;
     return 0;}
