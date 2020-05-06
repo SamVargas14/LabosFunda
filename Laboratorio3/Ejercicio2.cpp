@@ -7,5 +7,5 @@ int main() {
     cout<<"Introducir radio en cm: "; cin>>r;
     a = M_PI * pow(r,2); 
     p = (2 * M_PI) * r;
-    cout<<"\nArea= "<<a<<"cm²"<<"\nPerimetro= "<<p<<"cm";
+    cout<<"\nArea = "<<a<<"cm²"<<"\nPerimetro = "<<p<<"cm";
     return 0;}
