@@ -2,7 +2,8 @@
 #include <math.h>
 using namespace std;
  int main(){
-     float a,b,c,x1,x2;
+     int a,b,c;
+     float x1,x2;
      cout<<"Ingrese valor de a: "; cin>>a;
      cout<<"Ingrese valor de b: "; cin>>b;
      cout<<"Ingrese valor de c: "; cin>>c;
