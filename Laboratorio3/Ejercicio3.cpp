@@ -9,5 +9,5 @@ using namespace std;
      cout<<"Ingrese valor de c: "; cin>>c;
      x1 = (-b + sqrt(pow(b,2) - 4*a*c))/(2*a);
      x2 = (-b - sqrt(pow(b,2) - 4*a*c))/(2*a);
-     cout<<"x1= "<<x1<<"\nx2= "<<x2;
+     cout<<"\nx1= "<<x1<<"\nx2= "<<x2;
      return 0; }
