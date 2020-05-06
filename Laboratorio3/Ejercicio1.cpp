@@ -8,5 +8,4 @@ int main() {
     cout<<"Ingrese valor 3: "; cin>>c;
     p = (a + b + c) / 3;
     cout<<"\nSupromedio es: "<<p;
-    return 0;
-}
+    return 0;}
