@@ -4,7 +4,7 @@ int main() {
     string n;
     int c;
     float $,p;
-    cout<<"Producto: "; cin>>n;
+    cout<<"Producto: "; getline(cin,n);
     cout<<"Precio: $"; cin>>p;
     cout<<"Cantidad comprada: "; cin>>c;
     $ = p * c;
