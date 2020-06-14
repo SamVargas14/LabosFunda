@@ -11,7 +11,11 @@ int main(void) {
     cout<<endl<<endl;
     srand(time(NULL));
     num = 1 + rand()%(101 - 1);
-    for(i=1;i<=5;i=i+1){
+    for(i=1;i<=6;i=i+1){
+        if(i>5){
+            cout<<"Lo sentimos, el numero de intentos ha sido agotado.\nEl numero magico era: "<<num;
+            break;
+        }
         cout<<"Ingrese un numero: ";cin>>op;
         cout<<endl;
         if (op<num){
@@ -37,9 +41,6 @@ int main(void) {
         else if(op==num){
             cout<<"Felicitaciones.\n Usted ha encontrado el numero magico.";
             break;
-        }
-        else if(i == 5){
-            cout<<"Lo sentimos, el numero de intentos ha sido agotado.\nEl numero magico era: "<<num;
         }
     }
     return 0;
