@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 int main(void){
     int h, m, s;
@@ -16,9 +15,9 @@ int main(void){
                     h = 00;
             }
         }
-        cout<<"\n   Un segundo despues la hora es: "<<h<<":"<<m<<":"<<s;;
+        cout<<"\nUn segundo despues la hora es: "<<h<<":"<<m<<":"<<s;;
     }
     else
-        cout<<"\n   ERROR: La hora es incorrecta." ;
+        cout<<"\nERROR: La hora es incorrecta." ;
     return 0;
 }
