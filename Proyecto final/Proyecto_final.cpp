@@ -11,11 +11,12 @@ float costoPorArticulo;};
 void datos(struct CostoPorArticulo entrada[], string, int);
 void costo(struct CostoPorArticulo entrada[], int);
 void contenido(struct CostoPorArticulo entrada[], int);
-void costo_total(struct CostoPorArticulo entrada[], int, int);
+void costo_total(struct CostoPorArticulo entrada[], int, float);
 int main(void){
     char c;
     string art;
-    int n,sum=0;
+    int n; 
+    float sum=0;
     cout<<"Cuantos articulos desea ingresar?\n";
     cin>>n;cin.ignore(100, '\n');
     CostoPorArticulo entrada[n];
@@ -49,7 +50,7 @@ void contenido(struct CostoPorArticulo entrada[], int n){
         cout<<"\nPrecio unitario: "<<entrada[i].precio<<"\nCosto Por Articulo: "<<entrada[i].costoPorArticulo<<"\n";
     }
 }
-void costo_total(struct CostoPorArticulo entrada[], int n, int sum){
+void costo_total(struct CostoPorArticulo entrada[], int n, float sum){
     for(int i=0; i<n; i++){
         sum = sum + entrada[i].costoPorArticulo;
     }
